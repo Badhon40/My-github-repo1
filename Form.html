@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+
+        }
+        .heading{
+            font-size: bold;
+            font-style: none;
+            
+        }
+        label{
+            display: block;
+            margin-bottom: 8px;
+
+        }
+        .form{
+            border: 2px;
+            border-color: black;
+
+        }
+        .docu{
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="form" ></form>
+    <h1 class="heading">Please Fill The Form</h1>
+    
+    <label for="name">
+        Your name: <input type="text" id="name" placeholder="Name">
+    </label>
+    <label for="email">
+        Your email: <input type="email" id="email" placeholder="E-mail">
+    </label>
+    <label for="phone">
+        Your Phone: <input type="number" id="phone" placeholder="Your phone">
+    </label>
+    <label for="edu">
+        Education: <input type="text" id="edu" placeholder="Education">
+    </label>
+    <label for="gen">
+        Sex: <input type="radio" name="" id="gen">Male
+        <input type="radio" name="" id="gen">Female
+        <input type="radio" id="gen">Others
+        <fieldset>
+            <legend>Your Hobbys</legend>
+            <input type="text">
+        </fieldset>
+        
+            <label for="exp">
+                
+                Your Exprience: <input type="checkbox" name="" id="exp" class="docu">Competative Programing
+                <input type="checkbox" name="" id="exp" class="docu">Wed Development
+                <input type="checkbox" name="" id="exp" class="docu">Android Development
+               <br> <input type="checkbox" name="" id="exp" class="docu">Software Development
+                <input type="checkbox" name="" id="exp" class="docu">Machine Learing
+            </label>
+        
+        
+
+    </label>
+    <input type="reset" placeholder="Reseta">
+    <input type="submit" placeholder="Submit">
+</form>
+
+    
+</body>
+<footer>
+    <p><small>&copy;2023, All rights are reserved.</small></p>
+</footer>
+</html>
